@@ -199,6 +199,9 @@ app.delete("/eliminar/:id", (req, res) => {
 });
 
 // Iniciar servidor
+
+const PORT = process.env.PORT || 5000;
+
 app.listen(5000, () => {
     console.log("Servidor en puerto 5000");
 });
